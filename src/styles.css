@@ -1,1 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 1.75;
+}
+
+.btn-pink {
+    background-color: fuchsia !important;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.5rem !important;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-size: 1.125rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+
+.btn-xl:hover {
+    background-color: deeppink !important;
+}
+
+.btn-xl:focus,
+.btn-xl.focus {
+    border-color: fuchsia !important;
+    box-shadow: 0 0 0 0.2rem indianred !important;
+}
+
+.btn-xl.disabled,
+.btn-xl:disabled {
+    color: #fff !important;
+    background-color: fuchsia !important;
+    border-color: fuchsia !important;
+}
+
+.btn-xl:not(:disabled):not(.disabled):active,
+.btn-xl:not(:disabled):not(.disabled).active,
+.show>.btn-xl.dropdown-toggle {
+    background-color: deeppink !important;
+    border-color: deeppink !important;
+}
+
+.btn-xl:not(:disabled):not(.disabled):active:focus,
+.btn-xl:not(:disabled):not(.disabled).active:focus,
+.show>.btn-xl.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem indianred !important;
+}
+
+.btn-social {
+    border-color: fuchsia !important;
+}
+
+
+.btn-social:hover {
+    background-color: deeppink !important;
+}
+
+.btn-social:focus,
+.btn-social.focus {
+    border-color: fuchsia !important;
+    box-shadow: 0 0 0 0.2rem indianred !important;
+}
+
+.btn-social.disabled,
+.btn-social:disabled {
+    color: #fff !important;
+    background-color: fuchsia !important;
+    border-color: fuchsia !important;
+}
+
+.btn-social:not(:disabled):not(.disabled):active,
+.btn-social:not(:disabled):not(.disabled).active,
+.show>.btn-xl.dropdown-toggle {
+    background-color: deeppink !important;
+    border-color: deeppink !important;
+}
+
+.btn-social:not(:disabled):not(.disabled):active:focus,
+.btn-social:not(:disabled):not(.disabled).active:focus,
+.show>.btn-xl.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem indianred !important;
+}

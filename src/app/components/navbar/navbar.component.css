@@ -1,0 +1,89 @@
+.logo {
+    font-family: 'Montez', cursive;
+    color: deeppink !important;
+}
+
+/* .nav-link {
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    background-color: fuchsia !important;
+    border: 0;
+}
+
+#mainNav .navbar-brand {
+    color: fuchsia !important;
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+}
+
+#mainNav .navbar-brand a {
+    height: 1.5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.95rem;
+    letter-spacing: 0.0625em;
+    color: #fff;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: fuchsia !important;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        color: fuchsia !important;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 2em;
+        transition: font-size 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand a {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
+    } */
+
+     /* scroll  */
+
+    /* #mainNav.navbar-scrolled {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+
+    #mainNav.navbar-scrolled .navbar-brand {
+        font-size: 1.25em;
+    }
+
+    #mainNav.navbar-scrolled .navbar-brand,
+    #mainNav.navbar-scrolled .navbar-brand a {
+        height: 2rem;
+    }
+
+    #mainNav .navbar-nav .nav-item {
+        margin-right: 1rem;
+    }
+
+    #mainNav .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+} */
