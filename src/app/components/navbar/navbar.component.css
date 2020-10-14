@@ -3,7 +3,7 @@
     color: deeppink !important;
 }
 
-/* .nav-link {
+.nav-link {
     font-size: 1rem !important;
     font-weight: 500;
 }
@@ -64,7 +64,7 @@
 
      /* scroll  */
 
-    /* #mainNav.navbar-scrolled {
+    #mainNav.navbar-scrolled {
         padding-top: 1rem;
         padding-bottom: 1rem;
         background-color: #212529;
@@ -86,4 +86,4 @@
     #mainNav .navbar-nav .nav-item:last-child {
         margin-right: 0;
     }
-} */
+}

@@ -1,0 +1,33 @@
+
+<section class="page-section bg-light" id="productos">
+
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase position-relative">Producto : {{ cake.name }}</h2>
+            <hr class="hr mt-2">
+            <h3 class="section-subheading text-muted">Tipo : {{ cake.type }}</h3>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 border border-dark bg-white p-5">
+            <div class="col-md-4 text-center">
+                <img [src]="cake.img" class="img-fluid" alt="">
+                
+            </div>
+            <div class="col-md-8 mt-2">
+                <h3 class="text-center"> Nombre : {{ cake.name }}</h3>
+                <hr>
+                <p>
+                    <span class="badge badge-info"> Descripcion : </span> {{ cake.description }}
+                </p>
+                <p class="">
+                    Utilizamos las mejores materias primas, no utilizamos conservantes ni aditivos dañinos para la salud.
+TODOS NUESTROS PRODUCTOS, bizcochuelo,masas, cremas, mousses, fondant ect. SON ARTESANALES.
+                </p>
+            </div>
+            <a [routerLink]="['/productos']" class="btn btn-outline-danger btn-block mt-2">Volver</a>
+        </div>
+
+       
+    </div>
+
+</section>
